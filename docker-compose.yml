@@ -5,8 +5,22 @@ services:
     ports:
     - "8080:8080"
     depends_on:
-    - mongo
-  mongo:
-    image: mongo
+    - db
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
     ports:
-    - "27017:27017"
+      - '3306:3306' # <Port exposed>:< MySQL Port running inside container>
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+
+# Names the volume
+volumes:
+  my-db:
