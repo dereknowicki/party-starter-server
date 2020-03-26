@@ -6,26 +6,6 @@
 
 https://nodejs.org/en/download/
 
-## Install MongoDB
-
-### MacOS
-
-https://zellwk.com/blog/install-mongodb/
-
-### Windows
-
-https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
-
-### Linux
-
-https://docs.mongodb.com/manual/administration/install-on-linux/
-
-## Install MongoDB Compass
-
-This is a workbench tool for working with the database.
-
-https://docs.mongodb.com/compass/master/install/
-
 ## Install Docker
 
 ### MacOS
@@ -39,6 +19,10 @@ https://docs.docker.com/docker-for-windows/install/
 ## Install GIT
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+## Install MySQL Workbench
+
+https://dev.mysql.com/downloads/workbench/
 
 # Building and running the app
 
@@ -66,15 +50,16 @@ Stop the app:
 docker-compose down
 ```
 
-# Connecting with MongoDB Compass
+# Connecting with MySQL Workbench
 
-To view your database changes and troubleshoot issues launch MongoDB Compass from your programs list.
+To view your database changes and troubleshoot issues launch MySQL Workbench from your programs list.
 
-Paste this into the connection string field:
+![](https://miro.medium.com/max/1400/1*VcfoGGvE6rtXsaykGxpvCw.png)
 
-```
-mongodb://127.0.0.1:27017
-```
+Click `Store in Keychain`
+
+**Username:** user
+**Password:** password
 
 # Contributing to the project
 
