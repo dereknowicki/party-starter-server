@@ -50,6 +50,10 @@ Stop the app:
 docker-compose down
 ```
 
+View the app in a browser:
+
+http://localhost:8080/
+
 # Connecting with MySQL Workbench
 
 To view your database changes and troubleshoot issues launch MySQL Workbench from your programs list.
