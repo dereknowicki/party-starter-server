@@ -62,8 +62,8 @@ To view your database changes and troubleshoot issues launch MySQL Workbench fro
 
 Click `Store in Keychain`
 
-**Username:** user
-**Password:** password
+**Username:** sampleuser
+**Password:** samplepassword
 
 # Contributing to the project
 
