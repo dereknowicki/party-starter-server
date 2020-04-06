@@ -65,6 +65,8 @@ Click `Store in Keychain`
 **Username:** sampleuser
 **Password:** samplepassword
 
+Once logged in, click File -> Run SQL script and run startup.sql
+
 # Contributing to the project
 
 In general you should only work on one thing at a time. For example, if you're developing on a specific member function of a class, don't make changes to another member function if it isnt necessary in order to develop the function you're working on. Use branches to organize your code changes into small bite-sized chunks.
