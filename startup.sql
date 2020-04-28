@@ -1,27 +1,27 @@
 CREATE TABLE `sampledb`.`user` (
-  `u.id` INT NOT NULL,
-  `u.name` VARCHAR(45) NULL,
-  `u.password` VARCHAR(45) NULL,
-  `u.email` VARCHAR(45) NULL,
-  `u.dob` DATE NULL,
-  `u.gender` VARCHAR(45) NULL,
-  PRIMARY KEY (`u.id`));
+  `u_id` INT NOT NULL,
+  `u_name` VARCHAR(45) NULL,
+  `u_password` VARCHAR(45) NULL,
+  `u_email` VARCHAR(45) NULL,
+  `u_dob` DATE NULL,
+  `u_gender` VARCHAR(45) NULL,
+  PRIMARY KEY (`u_id`));
 CREATE TABLE `sampledb`.`club` (
-  `club.id` INT NOT NULL,
-  `club.name` VARCHAR(45) NULL,
-  `club.admin` VARCHAR(45) NULL,
-  `club.telephone` VARCHAR(11) NULL,
-  `club.email` VARCHAR(45) NULL,
-  PRIMARY KEY (`club.id`));
+  `club_id` INT NOT NULL,
+  `club_name` VARCHAR(45) NULL,
+  `club_admin` VARCHAR(45) NULL,
+  `club_telephone` VARCHAR(11) NULL,
+  `club_email` VARCHAR(45) NULL,
+  PRIMARY KEY (`club_id`));
 CREATE TABLE `sampledb`.`event` (
-  `event.id` INT NOT NULL,
-  `event.name` VARCHAR(45) NULL,
-  `event.type` VARCHAR(45) NULL,
-  `event.organizer` VARCHAR(45) NULL,
-  `event.date` DATE NOT NULL,
-  `event.location` VARCHAR(45) NULL,
-  PRIMARY KEY (`event.id`));
+  `event_id` INT NOT NULL,
+  `event_name` VARCHAR(45) NULL,
+  `event_type` VARCHAR(45) NULL,
+  `event_organizer` VARCHAR(45) NULL,
+  `event_date` DATE NOT NULL,
+  `event_location` VARCHAR(45) NULL,
+  PRIMARY KEY (`event_id`));
 CREATE TABLE `sampledb`.`tag` (
-  `tag.id` INT NOT NULL,
-  `tag.name` VARCHAR(45) NULL,
-  PRIMARY KEY (`tag.id`));
+  `tag_id` INT NOT NULL,
+  `tag_name` VARCHAR(45) NULL,
+  PRIMARY KEY (`tag_id`));
