@@ -9,14 +9,18 @@ const pool = mysql.createPool({
 });
 
 // open the MySQL connection
-pool.getConnection(function(err, connection){
+pool.getConnection(function (err, connection) {
   if (err) throw err; // not connected!
   console.log('connected as id ' + connection.threadId);
 });
 
-// connection.connect(error => {
+
+//connection.connect(error => {
 //   if (error) throw error;
 //   console.log("Successfully connected to the database.");
-// });
+//});
 
+
+
+// this is how we use import
 module.exports = pool;

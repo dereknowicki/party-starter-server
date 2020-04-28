@@ -1,5 +1,5 @@
 CREATE TABLE `sampledb`.`user` (
-  `u_id` INT NOT NULL,
+  `u_id` INT NOT NULL AUTO_INCREMENT,
   `u_name` VARCHAR(45) NULL,
   `u_password` VARCHAR(45) NULL,
   `u_email` VARCHAR(45) NULL,
